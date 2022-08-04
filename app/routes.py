@@ -16,13 +16,3 @@ def about():
     }
     return me
 
-@app.route("/dream_mate")
-def mate():
-    he = {
-        "height": "tall",
-        "build": "muscular",
-        "skin": "dark",
-        "educated": "hard_knocks"
-    }    
-    return he        
-    
